@@ -1,0 +1,76 @@
+:root{
+   --purple: #BF40BF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #404040;
+    color: white;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+h1{
+    color: var(--purple);
+    text-align: center;
+    padding: 1em;
+    
+}
+p{
+    color: white;
+    text-align: center;
+    padding: 1em;
+   
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--purple);
+    border: 2px white solid;
+    text-align: center;
+    margin-top: -0.4em;
+    border-radius: 5px;
+    width: 80%;
+    background-color: #404040;
+    padding: 5px;
+}
+
+div{
+    border: 2px dotted white;
+    width: 90%;
+    border-radius: 5%;
+    margin: 2em;
+   
+}
+.card {
+    background-color: var(--purple);
+    color: white;
+    border: 1px solid var(--purple);
+    height: 80px;
+   
+}
+.card1{
+    position: relative;
+    top: 5px;
+    right: 17px;
+    width: 90%;
+    height: 190px;
+    padding: 2em;
+    border: 1px solid var(--purple);
+    background-color: var(--purple);
+
+
+}
+footer{
+    text-align: center;
+    color: var(--purple);
+    padding: 3em;
+}
+

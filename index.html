@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-CSS</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p> Ever have trouble recalling the exact style of you favourite CSS code? Give it a permanent home and add it to this page! 
+            Select any snippet below and it'll automatically select all the code for you to copy!</p>
+        </header>
+        <main>
+            <div>
+                <h2>Flexbox Row</h2>
+                <p>Use these three properties to create a Flexbow row layout.</p>
+                <div class="card1">
+                <span class="card">
+                    .row { <br>
+                         display: flex; <br>
+                        file-direction: row; <br>
+                        flex-wrap: wrap; <br>
+                    }
+                </span>
+            </div>
+            </div>
+            <div>
+                <h2>Flexbox Column</h2>
+                <p>Use this to create a Flexbox column layout</p>
+                <div class="card1">
+                <span class="card">
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                </span>
+            </div>
+            </div>
+            <div>
+                <h2>CSS Grid Layout</h2>
+                <p>Build a 12-column layout using CSS Grid</p>
+                <div class="card1">
+                <span class="card">
+                    .grid {
+                        display: grid;
+                        width: 100%;
+                        grid-template-columns: repeat(12, 1fr);
+                    }
+                </span>
+                </div>
+            </div>
+            <div>
+                <h2>Linear Gradients</h2>
+                <p>This will create a background linear gradient from top to bottom</p>
+            <div class="card1">
+                <span class="card">
+                    .linear-gradient-background{
+                        background-image: linear-gradient (
+                            rgba(232, 102, 236, 0.3) 0%,
+                            rgba(232, 102, 236, 0.6) 100%
+                        )
+                    }
+                </span>
+                </div>
+            </div>
+            <div>
+                <h2>Box Transition Glow</h2>
+                <p>Use transition and box shadow to glow on hover.</p>
+                <div class="card1"
+                <pre class="card">
+                    .code-card .card-header { 
+                        border-radius: 8px; 
+                        transition: all 0.5s ease-in-out;
+                    } 
+                    .code-card:hover, 
+                    .code-card:hover 
+                    .card-header {
+                        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px 
+                        rgba(232, 102,236, 1);
+                    }
+                </pre>
+                </div>
+            </div>
+            <div>
+                <h2>Overlay Card with Title</h2>
+                <p>Use positoin properties and negative margins to raise elements higher than their antural starting point.</p>
+                <div class="card1">
+                <span class="card">
+                    .card-header{
+                        position: relative;
+                        margin-top: -20px;
+                    }
+                </span>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <h4>Made with love and CSS</h4>
+        </footer>
+    
+</body>
+</html>
